@@ -1,0 +1,401 @@
+/*
+GENERAL
+*/
+html {
+    background-color: #f6f6f6;
+    cursor: default
+}
+
+a {
+    color: #546954;
+}
+
+.page {
+    width: 98%;
+    height: 100%;
+    margin: 0px;
+    margin-top: 1em;
+
+}
+
+.resume-component {
+    min-width: 40em;
+    max-width: 40em;
+    margin: auto;
+    border: 1.5px solid #000000;
+    border-radius: 4px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    margin-bottom: 4%;
+    background-color: #f3f3f380;
+    transition: 1s;
+    box-shadow: 2px 4px 10px 6px rgba(103, 103, 103, 0.331);
+    height: 100%;
+}
+
+.resume-component:hover {
+    box-shadow: 2px 6px 15px 6px rgba(0, 0, 0, 0.331);
+    transition: 1s;
+}
+
+.section-header {
+    margin-top: 1%;
+    font-size: 1.1em;
+}
+
+.mobile-indicator-wrapper {
+    text-align: left;
+}
+
+.mobile-indicator {
+    display: none;
+}
+
+.section-separator {
+    margin: 0px;
+    margin-top: 1px;
+    border: .5px solid #000000;
+    border-radius: 10px;
+}
+
+
+/*
+help container
+*/
+#help-container {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 20% auto 20%;
+    grid-template-rows: 2vh;
+}
+
+.help-button {
+    font-size: 0.9em;
+    border: none;
+    border-radius: 0.5em;
+    background-color: Transparent;
+    color: #236776;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+
+.help-button:hover {
+    background-color: rgb(213, 213, 213);
+}
+
+.contact-element {
+    text-align: right;
+    padding-right: 0em;
+}
+
+
+
+/*
+HEADER
+*/
+#intro-container {
+    padding: 0px 20%;
+}
+
+.intro-element-main {
+    border: 1px solid #000000;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.9em;
+    border-radius: 4px;
+    cursor: default;
+}
+
+.your-name {
+    font-size: 1.2em;
+}
+
+/*
+PROGRAMMING
+*/
+  
+
+#programming-table-container {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: none;
+    align-items: center;
+    margin-top: 1%;
+}
+
+.programming-table-element {
+    font-size: 1em;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    cursor: default;
+    color: #546954;
+    border-top: 1.5px solid #000000;
+    border-right: 1.5px solid #000000;
+}
+
+.programming-table-element-title{
+    background-color: rgba(175, 182, 187, 0.251);
+    padding: 5px 0px;
+    border-bottom: 1.5px solid #000000;
+}
+
+.first-column{
+    border-left: 1.5px solid black;
+}
+
+.last-row{
+    border-bottom: 1.5px solid black;
+}
+
+.programming-list {
+    font-size: 0.75em;
+    text-align: left;
+    padding-left: 4px;
+    padding-bottom: 4px;
+    padding-top: 1px;
+    padding-right: 1px;
+    white-space: nowrap;
+    overflow: hidden;
+    cursor: default;
+    color: rgb(0, 0, 0);
+    background-color: rgb(238, 238, 238);
+}
+
+
+/*
+PROFESSIONAL
+*/
+#professional-container {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto;
+    background-color: none;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.professional-element {
+    background-color: None;
+    padding: 2px;
+    margin-top: 1%;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.professional-element-connected {
+    background-color: None;
+    padding: 0px 4px 2px 4px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    border-left: solid 1.5px;
+
+}
+
+.intro-company {
+    border-left: solid 1.5px;
+    font-size: 14px;
+    font-weight: 600;
+    padding-left: 3px;
+    padding-top: 3px;
+}
+
+.nest-list-description {
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    padding-inline-start: 25px;
+}
+
+.intro-name {
+    height: 0px;
+    border-top: solid 1.5px;
+    width: 10px;
+    float: left;
+    margin-top: 5px;
+}
+
+.end-name {
+    height: 0px;
+    border-bottom: solid 1.5px;
+    width: 10px;
+    float: left;
+}
+
+.job-title {
+    font-size: 14px;
+}
+
+.job-title-nested {
+    font-size: 13px;
+    margin-left: -10px;
+}
+
+
+.job-description-desktop {
+    padding: 2px;
+    font-size: 0.75em;
+}
+
+.job-description-mobile {
+    display: none;
+}
+
+.job-when {
+    font-size: 10px;
+    display: inline;
+    font-weight: 400;
+}
+
+/*
+Education
+*/
+#education-container {
+    display: grid;
+    grid-template-columns: auto;
+    background-color: none;
+}
+
+.education-element {
+    margin-top: 1%;
+    font-size: 0.9em;
+}
+
+.mobile-education-description {
+    display: none;
+}
+
+.desktop-education-description {
+    display: list-item;
+    font-size: 0.8em;
+}
+
+.education-place-date {
+    display: inline;
+}
+
+
+
+@media only screen and (max-width: 700px) {
+    #intro-container {
+        grid-template-columns: auto;
+        padding: 0px 15%;
+    }
+
+    .page {
+        margin: auto;
+        padding: 15px 0px 30px 0px;
+    }
+
+    .body {
+        border: 2px solid #000000;
+        border-radius: 4px;
+        background-color: #e4e4e4;
+        box-shadow: 2px 12px 20px 6px rgba(103, 103, 103, 0.331);
+        height: 100%;
+        padding: 10px 10px;
+        max-width: 93%;
+        min-width: 93%;
+    }
+
+    /*General*/
+    .section-header {
+        font-size: 4.2vw;
+    }
+
+    /*Header*/
+    .your-name {
+        font-size: 18px;
+    }
+
+    .intro-element-main {
+        font-size: 14px;
+    }
+
+    .mobile-indicator {
+        display: block;
+        margin-block-start: 0em;
+        padding: 1px 6px;
+        font-size: 3vw;
+        color: #236776;
+    }
+
+    /*Programming*/
+    .programming-element {
+        font-size: 15px;
+        cursor: pointer;
+    }
+
+    #programming-container {
+        height: 100%;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        margin-top: 1%;
+    }
+
+
+
+    .programming-list-item {
+        display: list-item;
+        font-size: 11px;
+        
+    }
+
+
+    /*Profession*/
+    .professional-element {
+        white-space: nowrap;
+    }
+
+    .job-title {
+        display: flex;
+        font-size: 14px;
+    }
+
+    .job-when {
+        display: none;
+    }
+
+    .intro-company {
+        font-size: 14px;
+    }
+
+    .job-description-mobile {
+        display: list-item;
+        font-size: 12px;
+    }
+
+    .job-description-desktop {
+        display: none;
+    }
+
+    #professional-container {
+        margin-bottom: 0px;
+        margin-top: 0px;
+        overflow: scroll;
+    }
+
+    /*Education*/
+    .education-element {
+        margin-top: 1%;
+        font-size: 14px;
+    }
+
+    .mobile-education-description {
+        display: list-item;
+        font-size: 12px;
+    }
+    
+    .desktop-education-description {
+        display: none;
+    }
+
+    .education-place-date {
+        display: none;
+    }
+}
